@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 60px 1fr;
+  grid-template-areas:
+    "header header"
+    "sidebar main";
+  height: 100vh;
+}
+
+.header {
+  grid-area: header;
+  background-color: #333;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.main {
+  grid-area: main;
+  background-color: #fff;
+  padding: 20px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.K {
+    font-weight: bold;
+}
+
+p.title {
+    font-weight: bold;
+    font-size: larger;
+}
