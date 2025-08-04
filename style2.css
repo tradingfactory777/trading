@@ -44,6 +44,7 @@ ul {
   position: fixed;
   top: 80px;
   height: calc(100vh - 80px);
+  width: 10%;
 }
 
 .sidebar a {
@@ -54,7 +55,7 @@ ul {
 
 .main {
   grid-area: main;
-  padding: 20px;
+  padding: 20px; 
 }
 
 .K {
@@ -84,9 +85,12 @@ p.title {
   }
 
   .sidebar {
-    order: 3;
     padding-top: 10px;
     background-color: #f8fafc;
+    height: auto;
+    position: fixed;
+    width: 100%;
+    top: 60.72px;
   }
 
   .main {
@@ -95,6 +99,7 @@ p.title {
     overflow: visible;
     word-break: break-word;
     overflow-wrap: break-word;
+    margin-top: 250px;
   }
 
   .header {
